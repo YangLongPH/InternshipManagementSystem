@@ -1,0 +1,53 @@
+body{
+
+}
+.row h1{
+    text-align: center;
+}
+#form_login_admin,
+#form_resign
+{
+    margin: 30px auto 10px;
+    border: solid 1px #8c8c8c;
+    border-radius: 1px;
+    position: absolute;
+}
+.input_user{
+    margin: 30px auto 20px;
+}
+/*#form_login_admin {*/
+    /*width: 500px;*/
+    /*min-height: 300px;*/
+    /*height: auto;*/
+/*}*/
+#form_resign{
+
+}
+.DoB option{
+    width:30px;
+    height: 25px;
+}
+#form_login_admin label {
+    float : left;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #2196F3;
+}
+#form_login_admin h4 {
+    font-weight: 600;
+    padding-top: 30px;
+    color : #2196F3;
+}
+#form_login_admin input {
+    border-radius: 1px;
+}
+.name-login h3 {
+    color : #2196F3;
+    font-weight: 700;
+}
+.name-uet {
+    top : 20px;
+}
+.name-uet p {
+    font-size: 12px;
+}

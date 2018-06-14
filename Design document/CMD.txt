@@ -1,0 +1,17 @@
+php artisan migrate:rollback
+php artisan migrate
+php artisan db:seed
+
+git add .
+git commit -m ""
+git push origin master
+
+git checkout master
+git merge
+git pull
+
+git fetch origin
+git reset --hard origin/master
+
+-git clean --force
+-git checkout -- .
